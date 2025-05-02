@@ -557,7 +557,7 @@
                 <stringProp name="ConstantTimer.delay">3000</stringProp>
               </UniformRandomTimer>
               <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
                 <collectionProp name="Asserion.test_strings">
                   <stringProp name="-1002738365">User password was correct</stringProp>
                 </collectionProp>
@@ -875,7 +875,7 @@
                 <stringProp name="ConstantTimer.delay">3000</stringProp>
               </UniformRandomTimer>
               <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
                 <collectionProp name="Asserion.test_strings">
                   <stringProp name="-551978909">A Session ID has been created and loaded into a cookie called MSO.</stringProp>
                   <stringProp name="309944020">Also, the server options have been loaded into the cookie called</stringProp>
@@ -1685,7 +1685,7 @@
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Flights" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Flights">
             <boolProp name="TransactionController.parent">true</boolProp>
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
@@ -1790,7 +1790,7 @@
                 <stringProp name="ConstantTimer.delay">3000.0</stringProp>
               </UniformRandomTimer>
               <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
                 <collectionProp name="Asserion.test_strings">
                   <stringProp name="2004921932">User has returned to the search page.  Since user has already logged on,
  we can give them the menu in the navbar.</stringProp>
@@ -2004,7 +2004,7 @@
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Find_flight" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Find_flight">
             <boolProp name="TransactionController.parent">true</boolProp>
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
@@ -2172,7 +2172,7 @@ seatType&#xd;
                 <stringProp name="ConstantTimer.delay">3000.0</stringProp>
               </UniformRandomTimer>
               <hashTree/>
-              <BoundaryExtractor guiclass="BoundaryExtractorGui" testclass="BoundaryExtractor" testname="Boundary Extractor" enabled="true">
+              <BoundaryExtractor guiclass="BoundaryExtractorGui" testclass="BoundaryExtractor" testname="Boundary Extractor">
                 <stringProp name="BoundaryExtractor.useHeaders">false</stringProp>
                 <stringProp name="BoundaryExtractor.refname">outboundFlight</stringProp>
                 <stringProp name="BoundaryExtractor.lboundary">name=&quot;outboundFlight&quot; value=&quot;</stringProp>
@@ -2182,7 +2182,7 @@ seatType&#xd;
                 <stringProp name="BoundaryExtractor.match_number">0</stringProp>
               </BoundaryExtractor>
               <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
                 <collectionProp name="Asserion.test_strings">
                   <stringProp name="-1910540014">Flight departing from &lt;B&gt;${departCity}&lt;/B&gt; to &lt;B&gt;${arriveCity}&lt;/B&gt;</stringProp>
                 </collectionProp>
@@ -2192,7 +2192,7 @@ seatType&#xd;
                 <intProp name="Assertion.test_type">16</intProp>
               </ResponseAssertion>
               <hashTree/>
-              <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Generate Flight Data" enabled="true">
+              <JSR223PreProcessor guiclass="TestBeanGUI" testclass="JSR223PreProcessor" testname="Generate Flight Data">
                 <stringProp name="scriptLanguage">groovy</stringProp>
                 <stringProp name="parameters"></stringProp>
                 <stringProp name="filename"></stringProp>
@@ -2247,7 +2247,7 @@ import java.util.Random
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Payment_details" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Payment_details">
             <boolProp name="TransactionController.parent">true</boolProp>
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
@@ -2391,7 +2391,7 @@ Content-Disposition: form-data; name=&quot;reserveFlights.y&quot;&#xd;
                 <stringProp name="ConstantTimer.delay">3000.0</stringProp>
               </UniformRandomTimer>
               <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
                 <collectionProp name="Asserion.test_strings">
                   <stringProp name="-1285535138">name=&quot;outboundFlight&quot; value=&quot;${outboundFlight}</stringProp>
                 </collectionProp>
@@ -2403,7 +2403,7 @@ Content-Disposition: form-data; name=&quot;reserveFlights.y&quot;&#xd;
               <hashTree/>
             </hashTree>
           </hashTree>
-          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Invoice" enabled="true">
+          <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Invoice">
             <boolProp name="TransactionController.parent">true</boolProp>
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
@@ -2505,7 +2505,7 @@ saveCC&#xd;
               </elementProp>
             </HTTPSamplerProxy>
             <hashTree>
-              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager" enabled="true">
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header manager">
                 <collectionProp name="HeaderManager.headers">
                   <elementProp name="Accept" elementType="Header">
                     <stringProp name="Header.name">Accept</stringProp>
@@ -2595,7 +2595,7 @@ saveCC&#xd;
                 <stringProp name="ConstantTimer.delay">3000.0</stringProp>
               </UniformRandomTimer>
               <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
                 <collectionProp name="Asserion.test_strings">
                   <stringProp name="-1899281526">leaves ${departCity}  for ${arriveCity}</stringProp>
                 </collectionProp>
@@ -2612,7 +2612,7 @@ saveCC&#xd;
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="http://localhost:1080/cgi-bin/welcome.pl?page=itinerary" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="http://localhost:1080/cgi-bin/welcome.pl?page=itinerary">
               <stringProp name="HTTPSampler.domain">${url}</stringProp>
               <stringProp name="HTTPSampler.port">1080</stringProp>
               <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -2712,7 +2712,7 @@ saveCC&#xd;
                 <stringProp name="ConstantTimer.delay">3000.0</stringProp>
               </UniformRandomTimer>
               <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
                 <collectionProp name="Asserion.test_strings">
                   <stringProp name="-1543707004">User wants the intineraries.  Since user has already logged on,</stringProp>
                   <stringProp name="-427694545">we can give them the menu in the navbar.</stringProp>
@@ -9161,7 +9161,7 @@ if (after != before - 1) {
             <boolProp name="TransactionController.includeTimers">false</boolProp>
           </TransactionController>
           <hashTree>
-            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="http://localhost:1080/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true" enabled="true">
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="http://localhost:1080/cgi-bin/login.pl?username=&amp;password=&amp;getInfo=true">
               <stringProp name="HTTPSampler.domain">localhost</stringProp>
               <stringProp name="HTTPSampler.port">1080</stringProp>
               <stringProp name="HTTPSampler.protocol">http</stringProp>
@@ -9275,7 +9275,7 @@ if (after != before - 1) {
                 <stringProp name="ConstantTimer.delay">3000.0</stringProp>
               </UniformRandomTimer>
               <hashTree/>
-              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion">
                 <collectionProp name="Asserion.test_strings">
                   <stringProp name="-1150412564">Please choose a username and password combination for your account</stringProp>
                 </collectionProp>
@@ -13454,7 +13454,7 @@ saveCC&#xd;
           </ConstantThroughputTimer>
           <hashTree/>
         </hashTree>
-        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UC_01_Buy_Ticket">
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UC_01_Buy_Ticket" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
